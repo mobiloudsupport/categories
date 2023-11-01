@@ -23217,8 +23217,7 @@ rgb(255, 255, 255)
 
 ;
   z-index: 2;
-  transform: translateX(-100%);
-
+  display: none;
 }
 .mobile-nav-panel > * {
   opacity: 0;
@@ -23228,7 +23227,8 @@ rgb(255, 255, 255)
   overflow: hidden;
 }
 .mobile-nav-panel[data-animation-state=open] {
-  transform: translateX(-5px);
+  transform: translateX(0);
+  display: block;
 }
 .mobile-nav-panel[data-animation-state=open] > * {
   opacity: 1;
