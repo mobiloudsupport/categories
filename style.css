@@ -23282,7 +23282,7 @@ rgb(255, 255, 255)
 .mobile-nav-content,
 .mobile-nav-primary-content {
   min-height: 100%;
-  padding-top: 20px;
+  /*padding-top: 20px;*/
   padding-bottom: 60px;
 }
 .site-header-actions ~ .mobile-nav-content,
