@@ -26375,3 +26375,7 @@ a.mobile-nav-close {
   a.navmenu-link {
     font-weight: 700 !important;
   }
+
+  .navmenu-id-registry {
+    display: none;
+  }
